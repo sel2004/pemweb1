@@ -1,0 +1,12 @@
+table
+        {
+            border: 1px solid #000;
+        }
+        thead
+        {
+            background-color:cyan;
+        }
+        tbody tr:nth-child(even) 
+        {
+            background-color: cyan;
+        }
