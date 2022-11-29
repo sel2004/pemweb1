@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    min-height: 100vh;
+    background-color: #F2E7D5;
+}
+.container{
+    display: flex;
+}
+.img{
+    display: flex;
+    margin: 5em;
+    padding: 10em;
+}
+#main{
+    display: flex;
+    flex: 1;
+}
+#main > article{
+    flex: 1;
+    order: 1;
+    background-color: #B09B71;
+}
+#main > aside{
+    display: flex;
+    width: 20vw;
+    background-color: #CFB997;
+}
+header, footer{
+    height: 10vh;
+    background-color: #D8CCA3;
+}
+header,footer,article, aside{
+    margin: 1em;
+}
